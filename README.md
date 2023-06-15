@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Decode a Morse code message</b></h3>
+  <h3><b>Enumerable</b></h3>
 
 </div>
 
@@ -12,7 +12,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖-Decode-a-Morse-code-message](#-Decode a Morse code message-)
+- [📖-Enumerable](#-Enumerable-)
   - [:hammer\_and\_wrench: Built With ](#hammer_and_wrench-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -20,6 +20,7 @@
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
+     - [Install](#install)
     - [Deployment](#deployment)
   - [:busts\_in\_silhouette: Authors ](#busts_in_silhouette-authors-)
   - [:telescope: Future Features ](#telescope-future-features-)
@@ -31,11 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Decode a Morse code message <a name="about-project"></a>
-
-This is a ruby application which will help us to decrypt any morse code received into a human readable language.
-
-**Decode a Morse code message** is a Ruby-based project
+# 📖 Enumerable <a name="about-project"></a>
+**Enumerable** In this project, we will learn how to use a module inside a class. For this, we will create a class MyList and a module MyEnumerable. Our module MyEnumerable will implement a subset of the functionality
+ <a href="https://rubydoc.org/core-.0.0/Enumerable.html">Enumerable</a>.
 
 ## :hammer_and_wrench: Built With <a name="built-with"></a>
 - Ruby
@@ -59,17 +58,9 @@ This is a ruby application which will help us to decrypt any morse code received
 
 ### Key Features <a name="key-features"></a>
 
-- **Install Postgress**
-- **Use pgAdmin4**
-- **Follow Gitflow**
-- **Create Database**
-- **Create Table**
-- **Query Table**
-- **join Tables**
-- **Insert data in table**
-- **Use Rollback, Savepoint, and commit**
-- **Use Many-to-many relations**
-- **Use FK indexes**
+- **enumerable_methode_all**
+- **enumerable_methode_any**
+- **enumerable_methode_filter**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,8 +89,19 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
+```sh
+   git clone https://github.com/KUBAHO3/my-enumerable.git
+```
 Use git clone command or download ZIP folder
 
+### Install
+
+- `you can run any one of these commands to install bundle on your machine:`
+```
+- bundle init
+- bundle install
+- sudo apt bundle install (for Linux)
+```
 ### Deployment
 
 Not yet deployed ...
@@ -111,20 +113,19 @@ Not yet deployed ...
 - Twitter: [@KubahoH](https://twitter.com/KubahoH)
 - LinkedIn: [Kubaho Linne Heaven](https://www.linkedin.com/in/kubaho-linne-heaven-78ab37208/)
 
-:bust_in_silhouette: **Yacoubou**
+:bust_in_silhouette: **Yacoubou Seidou**
 - GitHub: [@Yacoubou-seidou](https://github.com/Yacoubou-seidou)
 - LinkedIn: [yacoubou-Seidou](https://www.linkedin.com/in/yacoubou-seidou-chaibou/)
 <!-- FUTURE FEATURES -->
 
 ## :telescope: Future Features <a name="future-features"></a><br/>
-- [ ] **Adding multip databases**<br/>
-- [ ] **Add more operations**
+- [ ] **Add_more_enumerable_methodes**<br/>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 
 ## :handshake: Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!<br/>
-Feel free to check the [git@github.com:KUBAHO3/My-Portfolio.git](../../issues/).
+Feel free to check the [issues page](https://github.com/KUBAHO3/my-enumerable/issues).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- SUPPORT -->
 
@@ -147,7 +148,7 @@ If you like this project please follow me on github & twitter and also connect o
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/KUBAHO3/decode-morse-message/blob/morse-decode/MIT.md) licensed.
+This project is [MIT](/MIT.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
